@@ -49,13 +49,8 @@ table {
 
 body {
   font-family: 'Asap', sans-serif;
-  background-color: #DCC4C9;
+  background-color: #F7BAAE;
   font-size: 15px;
-
-}
-
-img#logo-img {
-  width: 100%;
 }
 
 img.image-post {
@@ -63,7 +58,6 @@ img.image-post {
   display: block;
   margin: 0 auto;
   visibility: visible;
-
 }
 
 .post-container {
@@ -105,7 +99,7 @@ p {
 
 div.text-post {
   margin: 0 auto;
-  width: 60%;
+  width: 70%;
 }
 
 header {
@@ -113,28 +107,101 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #8B0000;
+  background-color: #8E1719;
   width: 100%;
-  padding: 1em 0;
-  font-size: 0.8em;
+  padding: 1.3em 0;
+  font-size: 1.3em;
   height: 1em;
+	z-index: 4;
+}
 
+nav {
+  padding-left: 20%
+
+}
+
+.main-menu {
+	padding: 0;
+	margin: 0;
+}
+
+.main-menu li {
+	display: inline;
+	position: relative;
 }
 
 a.menu-link {
   color: white;
   text-decoration: none;
-  padding: 1em;
+  padding: 1.3em;
 }
 
-a:hover {
-  color: yellow;
-  background-color: green;
+a.sub-menu-link {
+	padding: 1em;
+	text-decoration:none;
+	color: white;
+}
+
+.main-menu li:hover {
+  color: white;
+  background-color: #560F10;
+	padding: 0
+}
+
+.main-menu li:hover .sub-menu {
+	display: block;
+	background-color: #8E1719;
+}
+
+.sub-menu {
+	display: none;
+	position: absolute;
+	top: 3em;
+	left: 0;
+	padding: 0;
+	background-color: #8E1719;
 
 }
 
-nav {
-  position: absolute;
-  top: auto;
-  left: 0;
+nav a {
+	color: white;
+}
+
+nav ul li a:hover {
+	color: yellow;
+}
+
+img {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+img.full-width {
+	width: 100%;
+	display: block;
+	margin: 0;
+}
+
+article {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+section {
+	width: 50%;
+	position: absolute;
+	padding: 5%;
+	box-sizing: border-box;
+}
+
+section.content {
+	top: 100%;
+	left: 0;
+}
+
+section.ads {
+	top: 100%;
+	left: 50%;
 }
