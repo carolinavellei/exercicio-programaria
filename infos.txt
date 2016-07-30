@@ -1,0 +1,118 @@
+objeto: cachorro
+fun��o ou evento/m�todo: latir, correr, lamber (realiza alguma a��o de acordo com os objetos)
+propriedades/atributos: pelo, rabo, focinho, pata (descreve o objeto)
+
+cachorro.late(alto);
+cachorro.corre(r�pido);
+cachorro.lambe(muito, molhado);
+
+Colocar na tag <script></script> apenas objetos javascript
+
+Se for colocar tags html, colocar dentro do <body></body>
+
+tipos de dados
+
+Inteiros (n�meros positivos/negativos) - integer
+Decimais
+Strings (texto) - dado do tipo texto entre aspas "" (pode escrever o que quiser, com caractere especial e tal);
+Arrays (conjuntos) ["pera", "ma��", "laranja"] conjunto de valores strings. �ndices apontam em qual posi��o cada string est� posicionadado. A cada v�rgula um �ndice. Come�a a contar a partir do zero (O).
+Objetos
+Booleano - retorna dois valores: falso e verdadeiro. Quando preenche, por ex, um formul�rio o "sim ou n�o" se tornam "true or false".
+
+nayra
+erica
+aline
+
+Operadores l�gicos
+
+Operador
+
+&& = "and" retorna verdadeiro se as duas compara��es forem verdadeiras
+
+|| = operador ou "or"
+
+!= !== "23" != 23 (iguais) "23" !== 23 (estritamente diferentes)
+
+if e else if = admitem condições
+
+outro laço de repetição
+
+for
+
+aceita três tipos de condição (separadas por ponto e virgula)
+
+1º valor inicial;
+2º condição;
+3º atualizar o valor
+
+for (valor inicial;condição;atualizar o valor) {
+...
+}
+
+var msg = "";
+for (var i = 0; i < 10; i++) {
+    msg += i + ", ";
+};
+alert(msg);
+
+Opera��es de atribui��o
+
+var x = "";
+x += "Mulheres ";
+x += "podem ";
+x += "programar!";
+x; //"Mulheres podem programar!"
+
+var x = 4;
+x +="Anna";
+x; //"4Anna";
+x = "12";
+x; // "12" (valor da vari�vel � substitu�vel)
+
+Estruturas condicionais
+
+if (2>1) {
+  alert("� maior!");
+
+}
+
+alert("O que acontece comigo?");
+
+Se a codi��o for verdadeira o alerta aparece.
+Tudo que t� dentro da condicional fica dentro das chaves e execut�vel.
+
+Quando t� foa das chaves, aparece de qualquer jeito.
+
+If, Else e Else if
+
+if (condi��o verdadeira) {
+  ...
+} else {
+  ...
+};
+
+if (condi��o verdadeira 1) {
+  ...
+} else if (condi��o verdadeira 2) {
+  ...
+} else {
+  ...
+}
+
+
+var nome = "Julia";
+var meuNome = "Anna";
+
+if (meuNome == nome) {
+  alert("S�o iguais");
+} else {
+  alet ("N�o s�o iguais");
+}
+
+if (meuNome == nome) {
+  alert("S�o iguais");
+} else if (nome == "Camila") {
+  alert("Oi, Camila");
+
+parseInt = converte string para n�mero
+toString = converte dados para string

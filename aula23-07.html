@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <head>
+    <title>Idade certa - CNH</title>
+    <script>
+    var idade = parseInt(prompt("Quantos anos você tem?"));
+    var maioridade = 18;
+
+    while (idade !== parseInt(idade)) {
+     var idade = parseInt(prompt("Digite um valor numérico. Tente novamente: quantos anos você tem?"));
+    }
+
+    document.write("<p><h2>Você tem " + idade + " anos.</p></h2>");
+
+    if (idade >= maioridade) {
+      document.write("<p><h3>Você tem idade para tirar sua CNH.</h3></p>");
+    } else {
+      document.write("<p><h3>Você não tem idade para tirar a sua CNH.</h3></p>");
+    }
+
+    </script>
+
+
+  </head>
+  <body>
+
+
+  </body>
+
+</html>
